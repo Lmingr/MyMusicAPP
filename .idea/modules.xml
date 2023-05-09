@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/XiangxueProject.iml" filepath="$PROJECT_DIR$/XiangxueProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/XiangxueProject.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/XiangxueProject.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/XiangxueProject.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/XiangxueProject.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/XiangxueProject.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/XiangxueProject.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/XiangxueProject.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/XiangxueProject.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/architecture/XiangxueProject.architecture.iml" filepath="$PROJECT_DIR$/.idea/modules/architecture/XiangxueProject.architecture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/architecture/XiangxueProject.architecture.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/architecture/XiangxueProject.architecture.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/architecture/XiangxueProject.architecture.main.iml" filepath="$PROJECT_DIR$/.idea/modules/architecture/XiangxueProject.architecture.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/architecture/XiangxueProject.architecture.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/architecture/XiangxueProject.architecture.unitTest.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <!-- 同学们，这里是ViewModel的绑定操作 -->
+        <variable
+            name="vm"
+            type="com.xiangxue.puremusic.bridge.state.LoginViewModel" />
+
+        <!-- 同学们，这里是此布局的点击事件集 -->
+        <variable
+            name="click"
+            type="com.xiangxue.puremusic.LoginActivity.ClickClass" />
+
+    </data>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="@color/root_bg_color"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="@dimen/title_bar_height"-->
+<!--            android:background="@color/top_bg_color">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/title_tv"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_centerInParent="true"-->
+<!--                android:text="登录"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="@dimen/title_main_text_size" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/user_register_tv"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:padding="10dp"-->
+<!--                android:text="注册"-->
+<!--                android:onClick="@{()->click.startToRegister()}"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="14dp" />-->
+
+<!--        </RelativeLayout>-->
+
+<!--        &lt;!&ndash; 登录成功 登录失败 的 各种状态 &ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textColor="#f00"-->
+<!--            android:textSize="20dp"-->
+<!--            android:text="@{vm.loginState}"-->
+<!--            android:layout_gravity="center"-->
+<!--            />-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:layout_marginRight="15dp"-->
+<!--            android:background="@drawable/corner_login_bg"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:padding="10dp">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:src="@drawable/login_user_name_icon" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/user_phone_et"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@null"-->
+<!--                android:hint="账户"-->
+<!--                android:inputType="text"-->
+<!--                android:padding="10dp"-->
+<!--                android:textSize="12sp"-->
+<!--                android:text="@={vm.userName}"-->
+<!--                />-->
+<!--        </LinearLayout>-->
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:layout_marginRight="15dp"-->
+<!--            android:background="@drawable/corner_login_bg"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:padding="10dp">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:src="@drawable/login_user_password_icon" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/user_password_et"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@null"-->
+<!--                android:hint="密码"-->
+<!--                android:inputType="textPassword"-->
+<!--                android:padding="10dp"-->
+<!--                android:textSize="12sp"-->
+<!--                android:text="@={vm.userPwd}"-->
+<!--                />-->
+
+<!--            <CheckBox-->
+<!--                android:id="@+id/check_password_cb"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:button="@drawable/check_user_password_selector" />-->
+<!--        </LinearLayout>-->
+
+
+<!--        <Button-->
+<!--            android:id="@+id/user_login_bt"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="15dp"-->
+<!--            android:background="@drawable/corners_login_bg"-->
+<!--            android:text="登 录"-->
+<!--            android:onClick="@{()->click.loginAction()}"-->
+<!--            android:textColor="@color/white" />-->
+
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="15dp">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="忘记密码？"-->
+<!--                android:textColor="@color/main_color" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:paddingRight="15dp"-->
+<!--                android:text="手机快捷登录"-->
+<!--                android:textColor="@color/main_color" />-->
+<!--        </RelativeLayout>-->
+
+<!--    </LinearLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".MainActivity">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/board_shape"
+            android:paddingStart="42dp"
+            android:paddingTop="10sp"
+            android:paddingEnd="42dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/big_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="LOGIN"
+                android:textColor="@color/white"
+                android:textSize="35sp" />
+
+            <!-- 登录成功 登录失败 的 各种状态 -->
+            <TextView
+                android:layout_below="@+id/big_login"
+                android:layout_marginTop="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerInParent="true"
+                android:text="@{vm.loginState}"
+                android:textColor="#f00"
+
+                />
+
+            <LinearLayout
+                android:id="@+id/username_lin"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/big_login"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="55sp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/user" />
+
+                <EditText
+                    android:id="@+id/username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10sp"
+                    android:background="@drawable/edit_board"
+                    android:ems="10"
+                    android:hint="Username"
+                    android:text="@={vm.userName}"
+                    android:padding="5sp"
+                    android:paddingStart="10sp"
+                    android:textSize="15sp"
+                    tools:ignore="RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/password_lin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/username_lin"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25sp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/pass" />
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10sp"
+                    android:background="@drawable/edit_board"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:text="@={vm.userPwd}"
+                    android:inputType="textPassword"
+                    android:padding="5sp"
+                    android:paddingStart="10sp"
+                    android:textSize="15sp"
+                    tools:ignore="RtlSymmetry" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="80sp"
+                android:layout_height="40sp"
+                android:layout_below="@+id/password_lin"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25sp"
+                android:background="@drawable/btn_color"
+                android:onClick="@{()->click.loginAction()}"
+                android:text="Login"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/text_view"
+                android:layout_width="240sp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/login"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="32sp"
+                android:gravity="center"
+                android:lineSpacingExtra="10dp"
+                android:onClick="@{()->click.startToRegister()}"
+                android:text="If you don't have account,Please Click here to Sign Up"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</layout>

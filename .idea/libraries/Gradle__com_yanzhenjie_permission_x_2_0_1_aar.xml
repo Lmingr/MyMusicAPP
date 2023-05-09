@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.yanzhenjie.permission:x:2.0.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/db271d0141f1e1c1d3357a1501b815de/jetified-x-2.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/db271d0141f1e1c1d3357a1501b815de/jetified-x-2.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/db271d0141f1e1c1d3357a1501b815de/jetified-x-2.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.yanzhenjie.permission/x/2.0.1/2c6105302ed2241cbf29e5bfae572f54bf899d62/x-2.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.yanzhenjie.permission/x/2.0.1/6b718e856d0922a3c2fcae1118d8b755594cdaa/x-2.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

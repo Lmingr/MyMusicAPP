@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Gradle: com.trello.rxlifecycle2:rxlifecycle-components:2.2.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/43b2efd5ff28f2539d170fe5c482db69/jetified-rxlifecycle-components-2.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/43b2efd5ff28f2539d170fe5c482db69/jetified-rxlifecycle-components-2.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/43b2efd5ff28f2539d170fe5c482db69/jetified-rxlifecycle-components-2.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4c24d7db7a7171edd32489197d7d8c85/jetified-rxlifecycle-components-2.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4c24d7db7a7171edd32489197d7d8c85/jetified-rxlifecycle-components-2.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4c24d7db7a7171edd32489197d7d8c85/jetified-rxlifecycle-components-2.2.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a3f6efd3216e71c1605b7820e3634bfa/jetified-rxlifecycle-components-2.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a3f6efd3216e71c1605b7820e3634bfa/jetified-rxlifecycle-components-2.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a3f6efd3216e71c1605b7820e3634bfa/jetified-rxlifecycle-components-2.2.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.trello.rxlifecycle2/rxlifecycle-components/2.2.0/88356dbfc882c1a12cc7c52564ea23e0bacac7f6/rxlifecycle-components-2.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.trello.rxlifecycle2/rxlifecycle-components/2.2.0/f1bf87ec35f854bd4b9ad99d5aec9b30fe38bedd/rxlifecycle-components-2.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

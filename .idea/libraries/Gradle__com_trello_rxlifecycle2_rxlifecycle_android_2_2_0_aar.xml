@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Gradle: com.trello.rxlifecycle2:rxlifecycle-android:2.2.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a6ed0b316a356e6fe9b0d42ecc6d6a6e/jetified-rxlifecycle-android-2.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a6ed0b316a356e6fe9b0d42ecc6d6a6e/jetified-rxlifecycle-android-2.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a6ed0b316a356e6fe9b0d42ecc6d6a6e/jetified-rxlifecycle-android-2.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/21cfcdf1067bb638b821e3fe0073577c/jetified-rxlifecycle-android-2.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/21cfcdf1067bb638b821e3fe0073577c/jetified-rxlifecycle-android-2.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/21cfcdf1067bb638b821e3fe0073577c/jetified-rxlifecycle-android-2.2.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1ecf07d42712af37e5a18e7f9588d1c9/jetified-rxlifecycle-android-2.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1ecf07d42712af37e5a18e7f9588d1c9/jetified-rxlifecycle-android-2.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1ecf07d42712af37e5a18e7f9588d1c9/jetified-rxlifecycle-android-2.2.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.trello.rxlifecycle2/rxlifecycle-android/2.2.0/7af6432f3ce8359e263e892a56669346b48f8129/rxlifecycle-android-2.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.trello.rxlifecycle2/rxlifecycle-android/2.2.0/7fbf584068d812df57985e7db2dc41caa8552b46/rxlifecycle-android-2.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
